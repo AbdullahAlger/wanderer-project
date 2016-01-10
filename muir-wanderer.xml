@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Exeter Book's: The Wanderer</title>
+                <author>Unknown</author>
+                <principal>Abdullah Alger</principal>
+            </titleStmt>
+            <editionStmt>
+                <edition>First TEI Edition of The Wanderer</edition>
+            </editionStmt>
+            <publicationStmt>
+                <authority>The Wanderer Project</authority>
+                <date when="2016-01-09">10 January 2016</date>
+                <availability>
+                    <licence target="http://creativecommons.org">Licensed with a Creative Commons
+                        Attribution</licence>
+                </availability>
+            </publicationStmt>
+            <notesStmt>
+                <note>Transcribed for the project</note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>Exeter</settlement>
+                        <repository>Cathedral Library</repository>
+                        <collection>Collection of poems and riddles</collection>
+                        <idno>3501</idno>
+                        <msName>Exeter Book</msName>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="ang">Old English</textLang>
+                        <msItem>
+                            <locus target="#F76v #F77r #F77v #F78r" from="76v" to="78r"
+                                facs="images/76v.jpg images/77r.jpg images/77v.jpg images/78r.jpg">
+                                ff. 76v-78r</locus>
+                            <title>The Wanderer</title>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="membranes">
+                            <supportDesc material="parch">
+                                <foliation>Modern foliation on the top right corner in
+                                    pencil.</foliation>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin> Written in <origPlace>England</origPlace> between
+                                <origDate>950</origDate> and <origDate>960</origDate>. It contains
+                            the majority of Old English poems that survive. </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>This project is entirely written for academics by academics. It was initially
+                    started as a project for a graduate study, but has now become a project for
+                    students and scholars to utilize. It is the objective of this project to bring
+                    together the edited versions of the Old English poem "The Wanderer" as well as
+                    the original version that exists in the Exeter Book. </p>
+            </projectDesc>
+            <editorialDecl>
+                <correction>
+                    <p>Corrections are original to each edition. No attempt has been made to
+                        normalize any edition.</p>
+                </correction>
+                <hyphenation>
+                    <p>Hyphens transcribed as they appear in the editions.</p>
+                </hyphenation>
+            </editorialDecl>
+        </encodingDesc>
+        <revisionDesc>
+            <change when="2016-01-09" who="AA"><persName>Abdullah Alger</persName> created this
+                page</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <facsimile xml:id="wanderer">
+        <surface xml:id="surf_76v" corresp="#EB_fol_76v"/>
+        <surface xml:id="surf_77r" corresp="#EB_fol_77r"/>
+        <surface xml:id="surf_77v" corresp="#EB_fol_77v"/>
+        <surface xml:id="surf_78r" corresp="#EB_fol_78r"/>
+    </facsimile>
+
+    <text type="verse">
+        <body>
+            <div type="verse" subtype="edition_text">
+                <pb n="EB_fol_76v" xml:id="EB_fol_76v"/>
+                <l n="1">Oft him anhaga <caesura/> are gebideð,</l>
+                <l n="2">metudes miltse, <caesura/> þeah þe he modcearig</l>
+                <l n="3">geond lagulade <caesura/> longe sceolde</l>
+                <l n="4">hreran mid hondum <caesura/> hrimcealde sæ,</l>
+                <l n="5">wadan wræclastas -- <caesura/> wyrd bið ful ared.</l>
+                <l n="6">Swa cwæð eardstapa, <caesura/> earfeþa gemyndig,</l>
+                <l n="7">wraþra wælsleahta, <caesura/> winemæga hryre:</l>
+                <l n="8">"Oft ic sceolde ana <caesura/> uhtna gehwylce</l>
+                <l n="9">mine ceare cwiþan. <caesura/> Nis nu cwicra nan</l>
+                <l n="10">þe ic him modsefan <caesura/> minne durre</l>
+                <l n="11">sweotule asecgan. <caesura/> Ic to soþe wat</l>
+                <l n="12">þæt biþ in eorle <caesura/> indryhten þeaw</l>
+                <l n="13">þæt he his ferðlocan <caesura/> fæste binde,</l>
+                <l n="14">healde his hordcofan, <caesura/> hycge swa he wille.</l>
+                <l n="15">Ne mæg werig mod <caesura/> wyrde wiðstondan,</l>
+                <l n="16">ne se hreo hyge <caesura/> helpe gefremman.</l>
+                <l n="17">Forðon domgeorne <caesura/> dreorigne oft</l>
+                <l n="18">in hyra breostcofan <caesura/> bindað fæste.</l>
+                <l n="19">Swa ic modsefan <caesura/> minne sceolde</l>
+                <l n="20">oft earmcearig, <caesura/> eðle bidæled,</l>
+                <l n="21">freomægum feor <caesura/> feterum sælan,</l>
+                <l n="22">siþþan geara iu <caesura/> goldwine minne</l>
+                <l n="23">hruse heolstre biwrah, <caesura/> ond ic hean þonan</l>
+                <l n="24">wod wintercearig <caesura/> ofer waþema gebind,</l>
+                <l n="25">sohte seledreorig <caesura/> sinces bryttan,</l>
+                <l n="26">hwær ic feor oþþe neah <caesura/> findan meahte</l>
+                <l n="27">þone þe in meoduhealle <caesura/> [minne] myne wisse,</l>
+                <l n="28">oþþe mec freondleasne <caesura/> frefran wolde,</l>
+                <l n="29">wenian mid wynnum. <caesura/> Wat se þe cunnað</l>
+                <l n="30">hu sliþen bið <caesura/> sorg to geferan,</l>
+                <l n="31">þam þe him lyt hafað <caesura/> leofra geholena.</l>
+                <l n="32">Warað hine wræclast, <caesura/> nales wunden gold,</l>
+                <l n="33">ferðloca freorig, <caesura/> nalæs foldan blæd.</l>
+                <l n="34">Gemon he selesecgas <caesura/> ond sincþege,</l>
+                <l n="35">hu hine on geoguðe <caesura/> his goldwine</l>
+                <l n="36">wenede to wiste -- <caesura/> wyn eal gedreas.</l>
+                <l n="37">Forþon wat se þe sceal <caesura/> his winedryhtnes</l>
+                <l n="38">leofes larcwidum <caesura/> longe forþolian --</l>
+                <l n="39">ðonne sorg ond slæp <caesura/> somod ætgædre</l>
+                <l n="40">earmne anhogan <caesura/> oft gebindað,</l>
+                <l n="41">þinceð him on mode <caesura/> þæt he his mondryhten</l>
+                <l n="42">clyppe ond cysse, <caesura/> ond on cneo lecge</l>
+                <l n="43">honda ond heafod, <caesura/> swa he hwilum ær</l>
+                <l n="44">in geardagum <caesura/> giefstolas breac.</l>
+                <l n="45">Ðonne onwæcneð eft <caesura/> wineleas guma --</l>
+                <l n="46">gesihð him biforan <caesura/> fealwe wegas,</l>
+                <l n="47">baþian brimfuglas, <caesura/> brædan feþra,</l>
+                <l n="48">hreosan hrim ond snaw <caesura/> hagle gemenged.</l>
+                <l n="49">Þonne beoð þy hefigran <caesura/> heortan benne,</l>
+                <l n="50">sare æfter swæsne. <caesura/> Sorg bið geniwad</l>
+                <l n="51">þonne maga gemynd <caesura/> mod geondhweorfeð;</l>
+                <l n="52">greteð gliwstafum, <caesura/> georne geondsceawað</l>
+                <l n="53">secga geseldan; <caesura/> swimmað oft on weg --</l>
+                <l n="54">fleotendra ferð <caesura/> no þær fela bringeð</l>
+                <l n="55">cuðra cwidegiedda. <caesura/> Cearo bið geniwad</l>
+                <l n="56">þam þe sendan sceal <caesura/> swiþe geneahhe</l>
+                <l n="57">ofer waþema gebind <caesura/> werigne sefan.</l>
+                <l n="58">Forþon ic geþencan ne mæg <caesura/> geond þas woruld</l>
+                <l n="59">for hwan modsefa <caesura/> min ne gesweorce</l>
+                <l n="60">þonne ic eorla lif <caesura/> eal geondþence,</l>
+                <l n="61">hu hi færlice <caesura/> flet ofgeafon,</l>
+                <l n="62">modge maguþegnas. <caesura/> Swa þes middangeard</l>
+                <l n="63">ealra dogra gehwam <caesura/> dreoseð ond fealleþ.</l>
+                <l n="64">Forþon ne mæg wearþan wis <caesura/> wer, ær he age</l>
+                <l n="65">wintra dæl in woruldrice. <caesura/> Wita sceal geþyldig --</l>
+                <l n="66">ne sceal no to hatheort <caesura/> ne to hrædwyrde,</l>
+                <l n="67">ne to wac wiga <caesura/> ne to wanhydig,</l>
+                <l n="68">ne to forht ne to fægen, <caesura/> ne to feohgifre</l>
+                <l n="69">ne næfre gielpes to georn <caesura/> ær he geare cunne.</l>
+                <l n="70">Beorn sceal gebidan, <caesura/> þonne he beot spriceð,</l>
+                <l n="71">oþþæt collenferð <caesura/> cunne gearwe</l>
+                <l n="72">hwider hweþra gehygd <caesura/> hweorfan wille.</l>
+                <l n="73">Ongietan sceal gleaw hæle <caesura/> hu gæstlic bið</l>
+                <l n="74">þonne ealre þisse worulde wela <caesura/> weste stondeð,</l>
+                <l n="75">swa nu missenlice <caesura/> geond þisne middangeard</l>
+                <l n="76">winde biwaune <caesura/> weallas stondaþ,</l>
+                <l n="77">hrime bihrorene, <caesura/> hryðge þa ederas.</l>
+                <l n="78">Woniað þa winsalo; <caesura/> waldend licgað</l>
+                <l n="79">dreame bidrorene, <caesura/> duguþ eal gecrong</l>
+                <l n="80">wlonc bi wealle. <caesura/> Sume wig fornom,</l>
+                <l n="81">ferede in forðwege: <caesura/> sumne fugel oþbær</l>
+                <l n="82">ofer heanne holm; <caesura/> sumne se hara wulf</l>
+                <l n="83">deaðe gedælde; <caesura/> sumne dreorighleor</l>
+                <l n="84">in eorðscræfe <caesura/> eorl gehydde.</l>
+                <l n="85">Yþde swa þisne eardgeard <caesura/> ælda scyppend</l>
+                <l n="86">oþþæt burgwara <caesura/> breahtma lease</l>
+                <l n="87">eald enta geweorc <caesura/> idlu stodon.</l>
+                <l n="88">Se þonne þisne wealsteal <caesura/> wise geþohte</l>
+                <l n="89">ond þis deorce lif <caesura/> deope geondþenceð,</l>
+                <l n="90">frod in ferðe, <caesura/> feor oft gemon</l>
+                <l n="91">wælsleahta worn, <caesura/> ond þas word acwið:</l>
+                <l n="92">'Hwær cwom mearg? <caesura/> Hwær cwom mago? Hwær cwom maþþumgyfa?</l>
+                <l n="93">Hwær cwom symbla gesetu? <caesura/> Hwær sindon seledreamas?</l>
+                <l n="94">Eala beorht bune. <caesura/> Eala byrnwiga.</l>
+                <l n="95">Evala þeodnes þrym. <caesura/> Hu seo þrag gewat,</l>
+                <l n="96">genap under nihthelm, <caesura/> swa heo no wære.</l>
+                <l n="97">Stondeð nu on laste <caesura/> leofre duguþe</l>
+                <l n="98">weal wundrum heah, <caesura/> wyrmlicum fah.</l>
+                <l n="99">Eorlas fornoman <caesura/> asca þryþe,</l>
+                <l n="100">wæpen wælgifru, <caesura/> wyrd seo mære,</l>
+                <l n="101">ond þas stanhleoþu <caesura/> stormas cnyssað,</l>
+                <l n="102">hrið hreosende <caesura/> hrusan bindeð,</l>
+                <l n="103">wintres woma, <caesura/> þonne won cymeð,</l>
+                <l n="104">nipeð nihtscua, <caesura/> norþan onsendeð</l>
+                <l n="105">hreo hæglfare <caesura/> hæleþum on andan.</l>
+                <l n="106">Eall is earfoðlic <caesura/> eorþan rice,</l>
+                <l n="107">onwendeð wyrda gesceaft <caesura/> weoruld under heofonum.</l>
+                <l n="108">Her bið feoh læne; <caesura/> her bið freond læne;</l>
+                <l n="109">her bið mon læne; <caesura/> her bið mæg læne --</l>
+                <l n="110">eal þis eorþan gesteal <caesura/> idel weorþeð.'"</l>
+                <l n="111">  Swa cwæð snottor on mode -- <caesura/> gesæt him sundor æt rune.</l>
+                <l n="112">Til biþ se þe his treowe gehealdeþ, <caesura/> ne sceal næfre his torn to rycene</l>
+                <l n="113">beorn of his breostum acyþan, <caesura/> nemþe he ær þa bote cunne,</l>
+                <l n="114">eorl mid elne gefremman. <caesura/> Wel bið þam þe him are seceð,</l>
+                <l n="115">frofre to fæder on heofonum, <caesura/> þær us eal seo fæstnung
+                    stondeð.</l>
+            </div>
+        </body>
+    </text>
+</TEI>
