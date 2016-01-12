@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Exeter Book's: The Wanderer</title>
+                <author>Unknown</author>
+                <principal>Abdullah Alger</principal>
+            </titleStmt>
+            <editionStmt>
+                <edition>First TEI Edition of The Wanderer</edition>
+            </editionStmt>
+            <publicationStmt>
+                <authority>The Wanderer Project</authority>
+                <date when="2016-01-09">10 January 2016</date>
+                <availability>
+                    <licence target="http://creativecommons.org">Licensed with a Creative Commons
+                        Attribution</licence>
+                </availability>
+            </publicationStmt>
+            <notesStmt>
+                <note>Transcribed for the project</note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>Exeter</settlement>
+                        <repository>Cathedral Library</repository>
+                        <collection>Collection of poems and riddles</collection>
+                        <idno>3501</idno>
+                        <msName>Exeter Book</msName>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="ang">Old English</textLang>
+                        <msItem>
+                            <locus target="#F76v #F77r #F77v #F78r" from="76v" to="78r"
+                                facs="images/76v.jpg images/77r.jpg images/77v.jpg images/78r.jpg">
+                                ff. 76v-78r</locus>
+                            <title>The Wanderer</title>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="membranes">
+                            <supportDesc material="parch">
+                                <foliation>Modern foliation on the top right corner in
+                                    pencil.</foliation>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin> Written in <origPlace>England</origPlace> between
+                            <origDate>950</origDate> and <origDate>960</origDate>. It contains
+                            the majority of Old English poems that survive. </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>This project is entirely written for academics by academics. It was initially
+                    started as a project for a graduate study, but has now become a project for
+                    students and scholars to utilize. It is the objective of this project to bring
+                    together the edited versions of the Old English poem "The Wanderer" as well as
+                    the original version that exists in the Exeter Book. </p>
+            </projectDesc>
+            <editorialDecl>
+                <correction>
+                    <p>Corrections are original to each edition. No attempt has been made to
+                        normalize any edition.</p>
+                </correction>
+                <hyphenation>
+                    <p>Hyphens transcribed as they appear in the editions.</p>
+                </hyphenation>
+            </editorialDecl>
+        </encodingDesc>
+        <revisionDesc>
+            <change when="2016-01-09" who="AA"><persName>Abdullah Alger</persName> created this
+                page</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div></div>
+        </body>
+    </text>
+</TEI>

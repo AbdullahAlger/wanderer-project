@@ -52,7 +52,7 @@
                         <origin> Written in <origPlace>England</origPlace> between
                                 <origDate>950</origDate> and <origDate>960</origDate>. It contains
                             the majority of Old English poems that survive. </origin>
-                    </history>
+                    </history>               
                 </msDesc>
             </sourceDesc>
         </fileDesc>
@@ -79,14 +79,8 @@
                 page</change>
         </revisionDesc>
     </teiHeader>
-
-    <facsimile xml:id="wanderer">
-        <surface xml:id="surf_76v" corresp="#EB_fol_76v"/>
-        <surface xml:id="surf_77r" corresp="#EB_fol_77r"/>
-        <surface xml:id="surf_77v" corresp="#EB_fol_77v"/>
-        <surface xml:id="surf_78r" corresp="#EB_fol_78r"/>
-    </facsimile>
-
+   
+    
     <text type="verse">
         <body>
             <div type="verse" subtype="edition_text">

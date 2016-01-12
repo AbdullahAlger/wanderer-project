@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../../Downloads/WandererCustomTEI.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="./WandererCustomTEI.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -63,7 +63,9 @@
                     started as a project for a graduate study, but has now become a project for
                     students and scholars to utilize. It is the objective of this project to bring
                     together the edited versions of the Old English poem "The Wanderer" as well as
-                    the original version that exists in the Exeter Book. </p>
+                    the original version that exists in the Exeter Book. There are about nine editions
+                    of the poem that will be considered here.
+                </p>
             </projectDesc>
             <editorialDecl>
                 <correction>
@@ -74,6 +76,25 @@
                     <p>Hyphens transcribed as they appear in the editions.</p>
                 </hyphenation>
             </editorialDecl>
+            <charDecl>
+                <char xml:id="punctus">
+                    <charName>Punctus in the middle of the line</charName>
+                    <mapping type="codepoint">U+00B7</mapping>
+                    <mapping type="diplomatic">·</mapping>
+                </char>
+                <char xml:id="colonsymend">
+                    <charName>Colon with large 7 symbol</charName>
+                    <mapping type="codepoint"/>
+                    <mapping type="diplomatic">:7</mapping>
+                    <note>Usually appears at the end of sections or poems.</note>
+                </char>
+                <char xml:id="colontildeend">
+                    <charName>Colon with a tilde</charName>
+                    <mapping type="codepoint"/>
+                    <mapping type="diplomatic">:~</mapping>
+                    <note>Usually appears at the end of sections or poems.</note>
+                </char>
+            </charDecl>
         </encodingDesc>
         <revisionDesc>
             <change when="2016-01-09" who="AA"><persName>Abdullah Alger</persName> created this
@@ -81,85 +102,174 @@
         </revisionDesc>
     </teiHeader>
 
-    <facsimile xml:id="wanderer">
-        <surface xml:id="surf_76v" corresp="#EB_fol_76v"/>
-        <surface xml:id="surf_77r" corresp="#EB_fol_77r"/>
-        <surface xml:id="surf_77v" corresp="#EB_fol_77v"/>
-        <surface xml:id="surf_78r" corresp="#EB_fol_78r"/>
+    <facsimile xml:id="fac_wanderer">
+        <surface xml:id="surf_76v" corresp="#EB_fol_76v">
+            <graphic height="3500px" width="2250px" url="images\76v.jpg"/>
+            <zone corresp="#VB_lb_76v_01" ulx="281" uly="337" lrx="2164" lry="460" rendition="line"
+                xml:id="EB_line_76v_01"/>
+            <zone corresp="#VB_lb_76v_02" ulx="533" uly="477" lrx="2096" lry="568" rendition="line"
+                xml:id="EB_line_76v_02"/>
+            <zone corresp="#VB_lb_76v_03" ulx="412" uly="569" lrx="2116" lry="684" rendition="line"
+                xml:id="EB_line_76v_03"/>
+            <zone corresp="#VB_lb_76v_04" ulx="421" uly="705" lrx="2112" lry="796" rendition="line"
+                xml:id="EB_line_76v_04"/>
+            <zone corresp="#VB_lb_76v_05" ulx="429" uly="821" lrx="2128" lry="900" rendition="line"
+                xml:id="EB_line_76v_05"/>
+            <zone corresp="#VB_lb_76v_06" ulx="420" uly="933" lrx="2136" lry="1004" rendition="line"
+                xml:id="EB_line_76v_06"/>
+            <zone corresp="#VB_lb_76v_07" ulx="429" uly="1045" lrx="2116" lry="1136"
+                rendition="line" xml:id="EB_line_76v_07"/>
+            <zone corresp="#VB_lb_76v_08" ulx="429" uly="1157" lrx="2124" lry="1256"
+                rendition="line" xml:id="EB_line_76v_08"/>
+            <zone corresp="#VB_lb_76v_09" ulx="429" uly="1277" lrx="2132" lry="1356"
+                rendition="line" xml:id="EB_line_76v_09"/>
+            <zone corresp="#VB_lb_76v_10" ulx="429" uly="1385" lrx="2104" lry="1464"
+                rendition="line" xml:id="EB_line_76v_10"/>
+            <zone corresp="#VB_lb_76v_11" ulx="425" uly="1501" lrx="2132" lry="1604"
+                rendition="line" xml:id="EB_line_76v_11"/>
+            <zone corresp="#VB_lb_76v_12" ulx="429" uly="1625" lrx="2116" lry="1716"
+                rendition="line" xml:id="EB_line_76v_12"/>
+            <zone corresp="#VB_lb_76v_13" ulx="433" uly="1745" lrx="2120" lry="1828"
+                rendition="line" xml:id="EB_line_76v_13"/>
+            <zone corresp="#VB_lb_76v_14" ulx="437" uly="1849" lrx="2116" lry="1940"
+                rendition="line" xml:id="EB_line_76v_14"/>
+            <zone corresp="#VB_lb_76v_15" ulx="445" uly="1965" lrx="2136" lry="2064"
+                rendition="line" xml:id="EB_line_76v_15"/>
+            <zone corresp="#VB_lb_76v_16" ulx="436" uly="2085" lrx="2140" lry="2196"
+                rendition="line" xml:id="EB_line_76v_16"/>
+            <zone corresp="#VB_lb_76v_17" ulx="433" uly="2221" lrx="2120" lry="2296"
+                rendition="line" xml:id="EB_line_76v_17"/>
+            <zone corresp="#VB_lb_76v_18" ulx="433" uly="2317" lrx="2108" lry="2416"
+                rendition="line" xml:id="EB_line_76v_18"/>
+            <zone corresp="#VB_lb_76v_19" ulx="429" uly="2441" lrx="2152" lry="2536"
+                rendition="line" xml:id="EB_line_76v_19"/>
+            <zone corresp="#VB_lb_76v_20" ulx="433" uly="2561" lrx="2128" lry="2664"
+                rendition="line" xml:id="EB_line_76v_20"/>
+            <zone corresp="#VB_lb_76v_21" ulx="433" uly="2689" lrx="2184" lry="2756"
+                rendition="line" xml:id="EB_line_76v_21"/>
+            <zone corresp="#VB_lb_76v_22" ulx="413" uly="2773" lrx="2168" lry="2900"
+                rendition="line" xml:id="EB_line_76v_22"/>
+        </surface>
+        <surface xml:id="surf_77r" corresp="#EB_fol_77r">
+            <graphic height="3500px" width="2250px" url="images\77r.jpg"/>
+        </surface>
+        <surface xml:id="surf_77v" corresp="#EB_fol_77v">
+            <graphic height="3500px" width="2250px" url="images\77v.jpg"/>
+        </surface>
+        <surface xml:id="surf_78r" corresp="#EB_fol_78r">
+            <graphic height="3500px" width="2250px" url="images\78r.jpg"/>
+        </surface>
     </facsimile>
 
     <text type="verse">
         <body>
             <div type="verse" subtype="diplomatic_edition">
                 <pb n="EB_fol_76v" xml:id="EB_fol_76v"/>
-                <p>Oft him anhaga are gebideð metudes miltse þeahþe<lb/> he mod cearig geond lagu
-                    lade longe sceolde hreran<lb/> mid hondum hrim cealde sæ wadan wræc lastas
-                    wyrd<lb/> bið ful ared . Swa cwæð eard stapa earfeþa gemyndig<lb/> wraþra wæl
-                    sleahta wine mæga hyre . Oft ic sceolde<lb/> ana uhtna gehwylce mine ceare
-                    cwiþan nisnu cwic<lb/> ra nan þeichim mod sefan minne durre sweotule<lb/>
-                    asecgan ic to soþe wat þ<ex>æt</ex> bið Ineorle Indryhten þeaw<lb/> þæt he his
-                    ferð locan fæste binde healdne his hord<lb/> cofan hycge swahe wille . nemæg
-                    werig mod wyrde wið<lb/> stondan nese hreo hyge helpe gefremman . forðon
-                    dom<lb/> georne dreorigne oft inhyra breoft cofan bindað<lb/> fæste . swa ic
-                    mode sefan minne sceolde . oft earm cearig<lb/> eðle bidæled fro mægu<ex>m</ex>
-                    feor feterum sælan siþþan<lb/> geara Iu gold wine mine hrusan heolftre biwran
-                    7<lb/> ic hean þonan wod winter cearig ofer waþena ge bind .<lb/> sohte sele
-                    dreorig sinces bryttan hwær ic feor oþþe<lb/> neah findan meahte þone þe Inmeodu
-                    healle mine<lb/> wisse oþþe mec freond lease frefran wolde weman mid<lb/> wynnum
-                    watseþe cunnað husliþen bið sorg togefe<lb/> ran þamþe him lyt hafað leofra
-                    geholena warað In<lb/> ne wræc last nales wunden gold ferð loca freorig<lb/>
+                <p>Oft him anhaga are gebideð metudes miltse þeahþe<lb facs="#EB_line_76v_01" n="1"
+                        xml:id="VB_lb_76v_01"/> he mod cearig geond lagu lade longe sceolde
+                    hreran<lb/> mid hondum hrim cealde sæ wadan wræc lastas wyrd<lb/> bið ful ared .
+                        <hi rend="cap">S</hi>wa cwæð eard stapa earfeþa gemyndig<lb/> wraþra wæl
+                    sleahta wine mæga hyre . <hi rend="cap">O</hi>ft ic sceolde<lb/> ana uhtna
+                    gehwylce mine ceare cwiþan nisnu cwic<lb/> ra nan þeichim mod sefan minne durre
+                    sweotule<lb/> asecgan ic to soþe wat <choice>
+                        <abbr>þ</abbr>
+                        <expan>þ<ex>æt</ex></expan>
+                    </choice> bið <hi rend="cap">I</hi>neorle <hi rend="cap">I</hi>ndryhten
+                    þeaw<lb/> þæt he his ferð locan fæste binde healdne his hord<lb/> cofan hycge
+                    swahe wille . nemæg werig mod wyrde wið<lb/> stondan nese hreo hyge helpe
+                    gefremman . forðon dom<lb/> georne dreorigne oft inhyra breoft cofan bindað<lb/>
+                    fæste . swa ic mode sefan minne sceolde . oft earm cearig<lb/> eðle bidæled fro <choice>
+                        <abbr>mægu</abbr>
+                        <expan>mægu<ex>m</ex></expan>
+                    </choice> feor feterum sælan siþþan<lb/> geara <hi rend="cap">I</hi>u gold wine
+                    mine hrusan heolftre biwran 7<lb/> ic hean þonan wod winter cearig ofer waþena
+                    ge bind .<lb/> sohte sele dreorig sinces bryttan hwær ic feor oþþe<lb/> neah
+                    findan meahte þone þe <hi rend="cap">I</hi>nmeodu healle mine<lb/> wisse oþþe
+                    mec freond lease frefran wolde weman mid<lb/> wynnum watseþe cunnað husliþen bið
+                    sorg togefe<lb/> ran þamþe him lyt hafað leofra geholena warað <hi rend="cap"
+                        >I</hi>n<lb/> ne wræc last nales wunden gold ferð loca freorig<lb/>
                 </p>
                 <pb n="EB_fol_77r" xml:id="EB_fol_77r"/>
-                <p>nalæs foldan blæd . gemonhe sele secgas 7sincþege hu hine<lb/> ongeoguðe his gold
+                <p>nalæs foldan blæd . gemonhe sele secgas <abbr>7</abbr>sincþege hu hine<lb/> ongeoguðe his gold
                     wine wenede towiste wyn eal gedreas<lb/> forþon wat seþe sceal his wine dryhtnes
-                    leofes lar cwi<lb/> dum longe forþolian . Ðon<ex>ne</ex> sorg 7slæp somod æt
-                    gæ<lb/> dre earmne anhogan oft gebindað . þinceð him on<lb/> mode þæthehis mon
-                    dryhten clyppe 7cysse 7on cneo<lb/> lecge honda 7heafod swa he hwilum ær Ingear
-                    dagum<lb/> giefstolas breac . Ðon<ex>ne</ex> on wæc neð eft wine leas guma<lb/>
-                    gesihð himbi foran fealwe wegas baþian brim fuglas<lb/> brædan feþra hreosan
-                    hrim 7snaw hagle gemenged<lb/> þon<ex>ne</ex> beoð þy hefigran heortan benne
-                    sare æfter swæsne<lb/> sorg bið geniwad þon<ex>ne</ex> maga gemynd mod geond
-                    hweor<lb/> feð greteð gliw stafum georne geond sceawað secga<lb/> ge seldan
-                    swimmað oft onweg fleo tendra ferð no<lb/> þær fela bringeð cuðra cwide giedda
-                    cearo bið ge<lb/> niwad þamþe sendan sceal swiþe geneahhe ofer waþe<lb/> ma
-                    gebind werigne sefan . for þon ic ge þencan nemæg<lb/> geond þas woruld for hwan
-                    mod sefan minne gesweor<lb/> ce þon<ex>ne</ex> iceorla lif eal geond þence hu hi
-                    færlice flet<lb/> of geafon modge magu þegnas swaþes middan geard<lb/> ealra
-                    dogra gehwam dreoseð 7fealleþ . forþon nemæg<lb/> wearþan wis wer ærhe age
-                    wintra dæl Inworuldrice<lb/>
+                    leofes lar cwi<lb/> dum longe forþolian . <choice>
+                        <abbr><hi rend="cap">Ð</hi>on</abbr>
+                        <expan><hi rend="cap">Ð</hi>on<ex>ne</ex></expan>
+                    </choice> sorg <abbr>7</abbr>slæp somod æt gæ<lb/> dre earmne anhogan oft gebindað . þinceð
+                    him on<lb/> mode þæthehis mon dryhten clyppe <abbr>7</abbr>cysse <abbr>7</abbr>on cneo<lb/> lecge honda
+                    <abbr>7</abbr>heafod swa he hwilum ær <hi rend="cap">I</hi>ngear dagum<lb/> giefstolas breac
+                    . <choice>
+                        <abbr><hi rend="cap">Ð</hi>on</abbr>
+                        <expan><hi rend="cap">Ð</hi>on<ex>ne</ex></expan>
+                    </choice> on wæc neð eft wine leas guma<lb/> gesihð himbi foran fealwe wegas
+                    baþian brim fuglas<lb/> brædan feþra hreosan hrim <abbr>7</abbr>snaw hagle gemenged<lb/>
+                    <choice>
+                        <abbr>þon</abbr>
+                        <expan>þon<ex>ne</ex></expan>
+                    </choice> beoð þy hefigran heortan benne sare æfter swæsne<lb/> sorg bið geniwad <choice>
+                        <abbr>þon</abbr>
+                        <expan>þon<ex>ne</ex></expan>
+                    </choice> maga gemynd mod geond hweor<lb/> feð greteð gliw stafum georne geond
+                    sceawað secga<lb/> ge seldan swimmað oft onweg fleo tendra ferð no<lb/> þær fela
+                    bringeð cuðra cwide giedda cearo bið ge<lb/> niwad þamþe sendan sceal swiþe
+                    geneahhe ofer waþe<lb/> ma gebind werigne sefan . for þon ic ge þencan
+                    nemæg<lb/> geond þas woruld for hwan mod sefan minne gesweor<lb/> ce <choice>
+                        <abbr>þon</abbr>
+                        <expan>þon<ex>ne</ex></expan>
+                    </choice> iceorla lif eal geond þence hu hi færlice flet<lb/> of geafon modge
+                    magu þegnas swaþes middan geard<lb/> ealra dogra gehwam dreoseð <abbr>7</abbr>fealleþ .
+                    forþon nemæg<lb/> wearþan wis wer ærhe age wintra dæl Inworuldrice<lb/>
                 </p>
                 <pb n="EB_fol_77v" xml:id="EB_fol_77v"/>
                 <p> wita sceal geþyldig . nesceal no to hat heort netohræd<lb/> wyrde . neto wac
                     wiga . neto wan hydig . neto forht . ne to fægen . neto<lb/> feohgifre . nenæfre
-                    gielpes togeorn ærhe geare cun<lb/> ne . beorn sceal gebidan þon<ex>ne</ex> he
-                    beot spriceð oþþæt<lb/> collen ferð cunne gearwe hwider hweþra gehygd hweor<lb/>
-                    fan wille . Ongietan sceal gleaw hæle hugæstlicbið þonne<lb/> ealle þisse
-                    worulde wela weste stondeð . swanu missenlice<lb/> geond þisne middan geard
-                    winde biwaune weallas ston<lb/> daþ hrime bihrorene hryðge þa ederas w oriað
-                    þawin<lb/> salo waldend licgað dreame bidrorene duguþ ealge crong<lb/> wlonc
-                    biwealle sume wig for nom ferede Inforð wege sum<lb/> ne fugel oþbær ofer heanne
-                    holm sumne sehara wulf<lb/> deaðe gedælde sumne dreorig hleor Ineorð scræfe
-                    eorl<lb/> gehydde yþde swa þisne eardgeard ælda scyppend oþþæt<lb/> burg wara
-                    breahtma lease eald enta geweorc idlu stodon Seþon<ex>ne</ex> þisne weal steal
-                    wise geþohte 7þis deorce lif deope<lb/> geond þenceð frod inferðe feor oft gemon
-                    wæl sleahta<lb/> worn 7þas word acwið . hwær cwom mearg . hwær cwom mago .<lb/>
-                    hwær cwom maþþum gyfa . hwær cwom symbla gesetu . hwærsin<lb/> don sele dreamas
-                    . eala beorht bune . eala byrn wiga . eala<lb/> þeodnes þrym huseo þrag gewat
-                    genap under niht helm<lb/> swa heo no wære . Stondeð nu onlaste leofre duguþe
-                    weal<lb/>
+                    gielpes togeorn ærhe geare cun<lb/> ne . beorn sceal gebidan <choice>
+                        <abbr>þon</abbr>
+                        <expan>þon<ex>ne</ex></expan>
+                    </choice> he beot spriceð oþþæt<lb/> collen ferð cunne gearwe hwider hweþra
+                    gehygd hweor<lb/> fan wille . <hi rend="cap">O</hi>ngietan sceal gleaw hæle
+                    hugæstlicbið þonne<lb/> ealle þisse worulde wela weste stondeð . swanu
+                    missenlice<lb/> geond þisne middan geard winde biwaune weallas ston<lb/> daþ
+                    hrime bihrorene hryðge þa ederas w oriað þawin<lb/> salo waldend licgað dreame
+                    bidrorene duguþ ealge crong<lb/> wlonc biwealle sume wig for nom ferede <hi
+                        rend="cap">I</hi>nforð wege sum<lb/> ne fugel oþbær ofer heanne holm sumne
+                    sehara wulf<lb/> deaðe gedælde sumne dreorig hleor Ineorð scræfe eorl<lb/>
+                    gehydde yþde swa þisne eardgeard ælda scyppend oþþæt<lb/> burg wara breahtma
+                    lease eald enta geweorc idlu stodon <hi rend="cap">S</hi>e<choice>
+                        <abbr>þon</abbr>
+                        <expan>þon<ex>ne</ex></expan>
+                    </choice> þisne weal steal wise geþohte <abbr>7</abbr>þis deorce lif deope<lb/> geond þenceð
+                    frod inferðe feor oft gemon wæl sleahta<lb/> worn <abbr>7</abbr>þas word acwið . hwær cwom
+                    mearg . hwær cwom mago .<lb/> hwær cwom maþþum gyfa . hwær cwom symbla gesetu .
+                    hwærsin<lb/> don sele dreamas . eala beorht bune . eala byrn wiga . eala<lb/>
+                    þeodnes þrym huseo þrag gewat genap under niht helm<lb/> swa heo no wære . <hi
+                        rend="cap">S</hi>tondeð nu onlaste leofre duguþe weal<lb/>
                 </p>
                 <pb n="EB_fol_78r" xml:id="EB_fol_78r"/>
-                <p> wundru<ex>m</ex> heah wyrmlicum fah . eorlas fornoman ascaþry<lb/> þe wæpen wæl
-                    gifru wyrd seo mære 7þas stan hleoþu stor<lb/> mas cnyssað hrið hreosende hruse
-                    bindeð wintres woma<lb/> þon<ex>ne</ex> won cymeð nipeð niht scua norþan
-                    onsendeð hreo<lb/> hægl fare hæleþum on andan . eall is earfoðlic eorþan<lb/>
-                    rice onwendeð wyrda ge sceaft weoruld under heofonu<ex>m</ex> .<lb/> herbið feoh
-                    læne . her bið freond læne . her bið mon læne .<lb/> her bið mæg læne eal þis
-                    eorþan gesteal idel weorþeð .<lb/> Swa cwæð snottor onmode gesæt him sundor
-                    æt<lb/> rune tilbiþ seþehis treowe gehealdeþ nesceal næfre<lb/> his torn
-                    torycene beorn ofhis breostum acyþan nem<lb/> þe he ær þa bote cunne eorl mid
-                    elne gefremman wel<lb/> bið þam þe him are seceð frofre tofæder on
-                        heofonu<ex>m</ex><lb/> þær us eal seo fæstnung stondeð<lb/>
+                <p>
+                    <choice>
+                        <abbr>wundru</abbr>
+                        <expan>wundru<ex>m</ex></expan>
+                    </choice> heah wyrmlicum fah . eorlas fornoman ascaþry<lb/> þe wæpen wæl gifru
+                    wyrd seo mære <abbr>7</abbr>þas stan hleoþu stor<lb/> mas cnyssað hrið hreosende hruse bindeð
+                    wintres woma<lb/>
+                    <choice>
+                        <abbr>þon</abbr>
+                        <expan>þon<ex>ne</ex></expan>
+                    </choice> won cymeð nipeð niht scua norþan onsendeð hreo<lb/> hægl fare hæleþum
+                    on andan . eall is earfoðlic eorþan<lb/> rice onwendeð wyrda ge sceaft weoruld
+                    under <choice>
+                        <abbr>heofonu</abbr>
+                        <expan>heofonu<ex>m</ex></expan>
+                    </choice> .<lb/> herbið feoh læne . her bið freond læne . her bið mon læne
+                    .<lb/> her bið mæg læne eal þis eorþan gesteal idel weorþeð .<lb/>
+                    <hi rend="cap">S</hi>wa cwæð snottor onmode gesæt him sundor æt<lb/> rune tilbiþ
+                    seþehis treowe gehealdeþ nesceal næfre<lb/> his torn torycene beorn ofhis
+                    breostum acyþan nem<lb/> þe he ær þa bote cunne eorl mid elne gefremman wel<lb/>
+                    bið þam þe him are seceð frofre tofæder on <choice>
+                        <abbr>heofonu</abbr>
+                        <expan>heofonu<ex>m</ex></expan>
+                    </choice><lb/> þær us eal seo fæstnung stondeð<lb/>
                 </p>
 
             </div>
